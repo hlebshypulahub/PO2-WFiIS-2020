@@ -1,0 +1,50 @@
+Dostepne opcje:
+'0' ==> opcja RESET, opis: Reset planszy
+‘a’ ==> opcja LEFT, opis: Przesun w lewo, wektor przesuniecia: [-1,  0]
+‘d’ ==> opcja RIGHT, opis: Przesun w prawo, wektor przesuniecia: [1,  0]
+‘w’ ==> opcja UP, opis: Przesun w gore, wektor przesuniecia: [0,  1]
+’s’ ==> opcja DOWN, opis: Przesun w dol, wektor przesuniecia: [0,  -1]
+'q' ==> opcja EXIT, opis: Zakonczenie gry
+
+XXX XX
+XX  XX
+Xo X X
+XXXXXX
+
+Wybierz opcje: d
+
+XXX XX
+XX  XX
+X oX X
+XXXXXX
+
+Wybierz opcje: d
+NIE UDALO SIE WYKONAC TAKIEGO RUCHU.
+
+XXX XX
+XX  XX
+X oX X
+XXXXXX
+
+Wybierz opcje: w
+
+XXX XX
+XXo XX
+X  X X
+XXXXXX
+
+Wybierz opcje: d
+
+XXX XX
+XX oXX
+X  X X
+XXXXXX
+
+Wybierz opcje: w
+
+XXXoXX
+XX  XX
+X  X X
+XXXXXX
+
+GRATULACJE, WYGRALES!
