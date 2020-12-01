@@ -43,7 +43,7 @@ public class Main {
                 throw new IllegalStateException("Zla liczba argumentow funkcji! " +
                         "Podaj jedna lub dwie liczby");
             }
-        } catch (IllegalStateException | NullPointerException e) {
+        } catch (IllegalStateException e) {
             System.out.println(e.getMessage());
         } catch (NoSuchMethodException e) {
             System.out.println("Nie ma takiej metody!");
